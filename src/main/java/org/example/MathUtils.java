@@ -31,4 +31,14 @@ public class MathUtils {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+        System.out.println("sum(1, 2) = " + sum(1, 2));
+        System.out.println("difference(1, 2) = " + difference(1, 2));
+        System.out.println("product(1, 2) = " + product(1, 2));
+        System.out.println("quotient(1, 2) = " + quotient(1, 2));
+        System.out.println("power(2, 3) = " + power(2, 3));
+        System.out.println("factorial(5) = " + factorial(5));
+    }
 }
